@@ -160,6 +160,25 @@
                 "date_modification": "2023-03-05",
                 "modifications": "Recette bio."
             }
+        },
+        {
+            "product_id": "test",
+            "reference": "VIN_002",
+            "nom": "test",
+            "ingredients": [
+                "test"
+            ],
+            "processus_de_fabrication": "test",
+            "specifications": {
+                "poids": "test",
+                "dur\u00e9e_d_affinage": "test",
+                "type_de_fromage": "test"
+            },
+            "version": {
+                "numero_version": 1,
+                "date_modification": "2024-01-01",
+                "modifications": "Produit ajout\u00e9."
+            }
         }
     ],
     "order_fournisseurs": [
@@ -318,17 +337,17 @@
             "commentaires": "Contr\u00c3\u00b4le qualit\u00c3\u00a9 des produits bio."
         }
     ],
-    "ProduitPreparation":[
-      {
-         "product_id":2,
-         "quantite":100,
-         "planning_id":1
-      },
-      {
-         "product_id":3,
-         "quantite":75,
-         "planning_id":2
-      }
+    "ProduitPreparation": [
+        {
+            "product_id": 2,
+            "quantite": 100,
+            "planning_id": 1
+        },
+        {
+            "product_id": 3,
+            "quantite": 75,
+            "planning_id": 2
+        }
     ],
     "order_production": [
         {
